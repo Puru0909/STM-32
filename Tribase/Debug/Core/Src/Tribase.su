@@ -1,0 +1,8 @@
+../Core/Src/Tribase.cpp:14:1:tribase_kinematics::tribase_kinematics(MOTOR*, MOTOR*, MOTOR*)	24	static
+../Core/Src/Tribase.cpp:30:6:void tribase_kinematics::forward(uint8_t, uint8_t)	16	static
+../Core/Src/Tribase.cpp:35:6:void tribase_kinematics::backward(uint8_t, uint8_t)	16	static
+../Core/Src/Tribase.cpp:41:6:void tribase_kinematics::left(uint8_t, uint8_t, uint8_t)	16	static
+../Core/Src/Tribase.cpp:47:6:void tribase_kinematics::right(uint8_t, uint8_t, uint8_t)	16	static
+../Core/Src/Tribase.cpp:84:6:void tribase_kinematics::anti_clockwise(uint8_t, uint8_t, uint8_t)	16	static
+../Core/Src/Tribase.cpp:90:6:void tribase_kinematics::clockwise(uint8_t, uint8_t, uint8_t)	16	static
+../Core/Src/Tribase.cpp:96:6:void tribase_kinematics::brake()	16	static

@@ -1,0 +1,5 @@
+../Core/Src/Motor.cpp:20:1:MOTOR::MOTOR(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	24	static
+../Core/Src/Motor.cpp:27:6:void MOTOR::motor_init(TIM_HandleTypeDef*, uint32_t)	24	static
+../Core/Src/Motor.cpp:33:6:void MOTOR::clockwise(int)	16	static
+../Core/Src/Motor.cpp:38:6:void MOTOR::anti_clockwise(int)	16	static
+../Core/Src/Motor.cpp:43:6:void MOTOR::brake()	16	static

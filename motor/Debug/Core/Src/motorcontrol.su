@@ -1,0 +1,5 @@
+../Core/Src/motorcontrol.cpp:15:1:MotorControl::MotorControl(GPIO_TypeDef*, GPIO_TypeDef*, uint16_t, uint16_t)	24	static
+../Core/Src/motorcontrol.cpp:23:6:void MotorControl::init(TIM_HandleTypeDef*, uint32_t)	24	static
+../Core/Src/motorcontrol.cpp:28:6:void MotorControl::clockwise(uint32_t)	16	static
+../Core/Src/motorcontrol.cpp:35:6:void MotorControl::anticlock(uint32_t)	16	static
+../Core/Src/motorcontrol.cpp:42:6:void MotorControl::motorstop()	16	static

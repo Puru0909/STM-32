@@ -1,0 +1,7 @@
+../Core/Src/main.cpp:85:7:float PID_Controller(float, float)	40	static
+../Core/Src/main.cpp:103:5:int main()	48	static
+../Core/Src/main.cpp:202:6:void SystemClock_Config()	72	static
+../Core/Src/main.cpp:239:13:void MX_TIM1_Init()	96	static
+../Core/Src/main.cpp:314:13:void MX_TIM2_Init()	56	static
+../Core/Src/main.cpp:363:13:void MX_GPIO_Init()	32	static
+../Core/Src/main.cpp:395:6:void Error_Handler()	4	static,ignoring_inline_asm

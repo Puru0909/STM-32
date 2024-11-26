@@ -1,0 +1,8 @@
+C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/bits/std_abs.h:75:3:constexpr float std::abs(float)	1
+../Core/Src/Motor.cpp:5:1:MOTOR::MOTOR(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	1
+../Core/Src/Motor.cpp:14:6:void MOTOR::motor_init(TIM_HandleTypeDef*, uint32_t)	1
+../Core/Src/Motor.cpp:20:6:void MOTOR::clockwise(int)	4
+../Core/Src/Motor.cpp:25:6:void MOTOR::anti_clockwise(int)	4
+../Core/Src/Motor.cpp:30:6:void MOTOR::brake()	4
+../Core/Src/Motor.cpp:37:5:int percentage_to_pwm(float, uint8_t)	1
+../Core/Src/Motor.cpp:41:6:void MOTOR::set_speed(float)	3

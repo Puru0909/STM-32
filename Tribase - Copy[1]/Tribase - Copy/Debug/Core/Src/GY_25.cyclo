@@ -1,0 +1,4 @@
+../Core/Src/GY_25.cpp:10:1:GY_25::GY_25(uint8_t*, uint8_t)	2
+../Core/Src/GY_25.cpp:16:6:void GY_25::GY_25Init(UART_HandleTypeDef*, uint8_t, uint8_t)	1
+../Core/Src/GY_25.cpp:24:6:void GY_25::update_angle(UART_HandleTypeDef*)	9
+../Core/Src/GY_25.cpp:42:7:float GY_25::get_angle()	1

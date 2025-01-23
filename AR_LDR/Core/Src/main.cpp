@@ -125,12 +125,7 @@ int main(void)
 	  else {
 		  obj.brake();
 	  	   }
-
-``
-
-
-
-	  }	 			}
+ }	 			}
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

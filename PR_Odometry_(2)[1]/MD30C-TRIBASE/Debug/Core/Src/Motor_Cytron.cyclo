@@ -1,0 +1,6 @@
+../Core/Src/Motor_Cytron.cpp:11:1:Motor::Motor(GPIO_TypeDef*, uint16_t, TIM_HandleTypeDef*, uint32_t)	1
+../Core/Src/Motor_Cytron.cpp:18:6:void Motor::init()	1
+../Core/Src/Motor_Cytron.cpp:21:6:void Motor::clockwise(uint8_t)	4
+../Core/Src/Motor_Cytron.cpp:26:6:void Motor::anti_clockwise(uint8_t)	4
+../Core/Src/Motor_Cytron.cpp:33:6:void Motor::brake()	4
+../Core/Src/Motor_Cytron.cpp:38:6:void Motor::setSpeed(int)	3

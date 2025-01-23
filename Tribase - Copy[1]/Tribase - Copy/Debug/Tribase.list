@@ -37,15 +37,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  00002fd1  00000000  00000000  00014b60  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000d70f  00000000  00000000  00017b31  2**0
+ 17 .debug_line   0000d711  00000000  00000000  00017b31  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000871dc  00000000  00000000  00025240  2**0
+ 18 .debug_str    000871dc  00000000  00000000  00025242  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  000ac41c  2**0
+ 19 .comment      00000043  00000000  00000000  000ac41e  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000033d4  00000000  00000000  000ac460  2**2
+ 20 .debug_frame  000033d4  00000000  00000000  000ac464  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 0000006d  00000000  00000000  000af834  2**0
+ 21 .debug_line_str 0000006d  00000000  00000000  000af838  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1435,10 +1435,6 @@ void tribase_kinematics::IK(float omega_bz, float v_bx, float v_by) {
     float d = 0.24;
  8000f04:	4b6b      	ldr	r3, [pc, #428]	@ (80010b4 <_ZN18tribase_kinematics2IKEfff+0x1c4>)
  8000f06:	623b      	str	r3, [r7, #32]
-
-//    float speedA = (1 / r) * ((-d * omega_bz) + (v_bx ));
-//    float speedB = (1 / r) * ((-d * omega_bz) - (0.5 * v_bx ) - (0.866 * v_by ));
-//    float speedC =  (1 / r) * ((-d * omega_bz) - (0.5 * v_bx) + (0.866 * v_by ));
 
     float speedA = (1 / r) * ((-d * omega_bz) + (v_bx ));
  8000f08:	6a79      	ldr	r1, [r7, #36]	@ 0x24

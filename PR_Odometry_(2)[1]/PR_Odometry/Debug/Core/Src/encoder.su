@@ -1,0 +1,8 @@
+../Core/Src/encoder.cpp:10:7:float convert_unit(float, uint8_t, uint8_t)	24	static
+../Core/Src/encoder.cpp:63:1:Encoder::Encoder(TIM_HandleTypeDef*, int, float, uint8_t)	32	static
+../Core/Src/encoder.cpp:71:6:void Encoder::init()	16	static
+../Core/Src/encoder.cpp:75:6:void Encoder::reset()	24	static
+../Core/Src/encoder.cpp:79:6:void Encoder::update()	24	static
+../Core/Src/encoder.cpp:94:7:float Encoder::getDistance(uint8_t) const	16	static
+../Core/Src/encoder.cpp:98:5:int Encoder::getRevolutionCount() const	16	static
+../Core/Src/encoder.cpp:102:5:int Encoder::getTotalCount() const	16	static

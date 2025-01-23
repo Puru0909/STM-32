@@ -1,0 +1,16 @@
+../Core/Src/buffer.cpp:24:6:void buffer_append_int16(uint8_t*, int16_t, int32_t*)	24	static
+../Core/Src/buffer.cpp:29:6:void buffer_append_uint16(uint8_t*, uint16_t, int32_t*)	24	static
+../Core/Src/buffer.cpp:34:6:void buffer_append_int32(uint8_t*, int32_t, int32_t*)	24	static
+../Core/Src/buffer.cpp:41:6:void buffer_append_uint32(uint8_t*, uint32_t, int32_t*)	24	static
+../Core/Src/buffer.cpp:48:6:void buffer_append_float16(uint8_t*, float, float, int32_t*)	24	static
+../Core/Src/buffer.cpp:52:6:void buffer_append_float32(uint8_t*, float, float, int32_t*)	24	static
+../Core/Src/buffer.cpp:96:6:void buffer_append_float32_auto(uint8_t*, float, int32_t*)	48	static
+../Core/Src/buffer.cpp:121:9:int16_t buffer_get_int16(const uint8_t*, int32_t*)	24	static
+../Core/Src/buffer.cpp:128:10:uint16_t buffer_get_uint16(const uint8_t*, int32_t*)	24	static
+../Core/Src/buffer.cpp:135:9:int32_t buffer_get_int32(const uint8_t*, int32_t*)	24	static
+../Core/Src/buffer.cpp:144:10:uint32_t buffer_get_uint32(const uint8_t*, int32_t*)	24	static
+../Core/Src/buffer.cpp:153:7:float buffer_get_float16(const uint8_t*, float, int32_t*)	24	static
+../Core/Src/buffer.cpp:157:7:float buffer_get_float32(const uint8_t*, float, int32_t*)	24	static
+../Core/Src/buffer.cpp:161:7:float buffer_get_float32_auto(const uint8_t*, int32_t*)	40	static
+../Core/Src/buffer.cpp:182:6:bool buffer_get_bool(const uint8_t*, int32_t*)	16	static
+../Core/Src/buffer.cpp:197:6:void buffer_append_bool(uint8_t*, bool, int32_t*)	24	static

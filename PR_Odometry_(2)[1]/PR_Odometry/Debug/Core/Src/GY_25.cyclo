@@ -1,0 +1,8 @@
+../Core/Src/GY_25.cpp:9:1:GY_25::GY_25(UART_HandleTypeDef&)	1
+../Core/Src/GY_25.cpp:13:1:GY_25::GY_25(UART_HandleTypeDef&, uint32_t)	1
+../Core/Src/GY_25.cpp:17:1:GY_25::GY_25(UART_HandleTypeDef&, uint32_t, uint32_t)	1
+../Core/Src/GY_25.cpp:22:6:void GY_25::update_counts()	17
+../Core/Src/GY_25.cpp:61:6:void GY_25::update_angles()	1
+../Core/Src/GY_25.cpp:71:5:int GY_25::get_x_revolution_counts()	1
+../Core/Src/GY_25.cpp:75:5:int GY_25::get_y_revolution_counts()	1
+../Core/Src/GY_25.cpp:79:5:int GY_25::get_z_revolution_counts()	1

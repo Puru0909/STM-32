@@ -1,0 +1,8 @@
+../Core/Src/GY.cpp:3:1:GY::GY(UART_HandleTypeDef*)	16	static
+../Core/Src/GY.cpp:8:1:GY::GY(UART_HandleTypeDef*, uint16_t)	24	static
+../Core/Src/GY.cpp:13:1:GY::GY(UART_HandleTypeDef*, uint16_t, uint16_t)	24	static
+../Core/Src/GY.cpp:18:6:void GY::update_counts()	40	static
+../Core/Src/GY.cpp:51:6:void GY::update_angles()	40	static
+../Core/Src/GY.cpp:61:5:int GY::get_x_revolution_counts()	16	static
+../Core/Src/GY.cpp:65:5:int GY::get_y_revolution_counts()	16	static
+../Core/Src/GY.cpp:69:5:int GY::get_z_revolution_counts()	16	static

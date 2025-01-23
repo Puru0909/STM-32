@@ -1,0 +1,5 @@
+../Core/Src/Encoder.cpp:48:1:encoder::encoder(TIM_HandleTypeDef*, int16_t, float)	24	static
+../Core/Src/Encoder.cpp:51:6:void encoder::encoder_init()	16	static
+../Core/Src/Encoder.cpp:57:6:void encoder::update()	16	static
+../Core/Src/Encoder.cpp:69:9:int16_t encoder::read_revolutions()	16	static
+../Core/Src/Encoder.cpp:73:7:float encoder::read_distance()	32	static

@@ -1,0 +1,8 @@
+../Core/Inc/BNO085.h:34:13:float Sensors::IMU::getYaw()	1
+../Core/Src/main.cpp:69:5:int main()	1
+../Core/Src/main.cpp:119:6:void SystemClock_Config()	3
+../Core/Src/main.cpp:161:13:void MX_USART6_UART_Init()	2
+../Core/Src/main.cpp:194:13:void MX_GPIO_Init()	1
+../Core/Src/main.cpp:216:6:void Error_Handler()	1
+../Core/Src/main.cpp:225:1:void __static_initialization_and_destruction_0(int, int)	3
+../Core/Src/main.cpp:225:1:cpp)	1

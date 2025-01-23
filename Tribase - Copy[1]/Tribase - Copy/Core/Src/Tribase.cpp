@@ -69,13 +69,19 @@ void tribase_kinematics::IK(float omega_bz, float v_bx, float v_by) {
     float r = 0.063;
     float d = 0.24;
 
-//    float speedA = (1 / r) * ((-d * omega_bz) + (v_bx ));
-//    float speedB = (1 / r) * ((-d * omega_bz) - (0.5 * v_bx ) - (0.866 * v_by ));
-//    float speedC =  (1 / r) * ((-d * omega_bz) - (0.5 * v_bx) + (0.866 * v_by ));
-
     float speedA = (1 / r) * ((-d * omega_bz) + (v_bx ));
     float speedB = (1 / r) * ((-d * omega_bz) + ((-0.5) * v_bx ) + ((-0.866) * v_by ));
     float speedC =  (1 / r) * ((-d * omega_bz) + ((-0.5) * v_bx) + (0.866 * v_by ));
+
+
+    //for 45 degree quad base
+   // v_w = (1 / r) * [ -d * ω_bz + cos(β) * v_bx + sin(β) * v_by ]
+
+//    float speedA = (1 / r) * ((-d * omega_bz) + (0.707 * v_bx) + (0.707 * v_by));
+//    float speedB = (1 / r) * ((-d * omega_bz) + (0.707 * v_bx) + (0.707 * v_by));
+//    float speedC = (1 / r) * ((-d * omega_bz) + (-0.707 * v_bx) + (-0.707 * v_by));
+//    float speedD = (1 / r) * ((-d * omega_bz) + (0.707 * v_bx) + (-0.707 * v_by));
+
 
 
 

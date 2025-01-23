@@ -1,0 +1,4 @@
+../Core/Src/Motor.cpp:5:1:MOTOR::MOTOR(UART_HandleTypeDef&, uint8_t)	24	static
+../Core/Src/Motor.cpp:9:6:void MOTOR::motor_init()	16	static
+../Core/Src/Motor.cpp:14:6:void MOTOR::brake()	16	static
+../Core/Src/Motor.cpp:20:6:void MOTOR::set_speed(float)	16	static

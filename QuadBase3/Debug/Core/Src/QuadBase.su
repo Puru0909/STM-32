@@ -1,0 +1,6 @@
+C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/cmath:184:3:constexpr float std::cos(float)	16	static
+C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/cmath:425:3:constexpr float std::sin(float)	16	static
+../Core/Src/QuadBase.cpp:6:1:QuadBaseKinematics::QuadBaseKinematics()	16	static
+../Core/Src/QuadBase.cpp:10:6:void QuadBaseKinematics::set_speed_scalers(float, float, float, float)	24	static
+../Core/Src/QuadBase.cpp:17:6:void QuadBaseKinematics::calculate_speeds(float, float, float, float)	48	static
+../Core/Src/QuadBase.cpp:32:6:void QuadBaseKinematics::brake()	16	static
